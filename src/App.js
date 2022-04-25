@@ -4,9 +4,9 @@ import Tasks from "./components/Tasks";
 
 function App() {
   const [tasks, setTasks] = useState([
-    { id: 1, text: "mow lawn" },
-    { id: 2, text: "feed fish" },
-    { id: 3, text: "watch F1" },
+    { id: 1, text: "mow lawn", time: "Tuesday" },
+    { id: 2, text: "feed fish", time: "Wednesday" },
+    { id: 3, text: "watch F1", time: "Sunday" },
   ]);
   return (
     <div className="container">
